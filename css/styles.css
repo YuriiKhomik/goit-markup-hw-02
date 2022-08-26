@@ -3,8 +3,11 @@
     --tittle-text-color: #212121;
     --primary-bg-color: #F5F5F5;
     --secondary-bg-color: #F5F4FA;
+    --third-bg-color: #2F303A;
     --accent-color: #2196F3;
 }
+
+/* стилізація лінків */
 
 a:link {
     text-decoration: none;
@@ -21,6 +24,8 @@ a:active {
     text-decoration: none;
 }
 
+/* загальне */
+
 .page{
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
@@ -29,13 +34,6 @@ a:active {
 ul {
     list-style: none;
 }
-
-/* h1 color #FFFFFF */
-/* h2+h3+buttons color #212121 */
-/* p color #757575 */
-/* hero background color #2F303A */
-/* blue #2196F3 */
-/* white color #2196F3 */
 
 /* стилізація лого */
 .logo-web {
@@ -70,13 +68,20 @@ ul {
     color: var(--accent-color);
 }
 
+/* герой */
+
+.hero {
+    color: #FFFFFF;
+    background-color:var(--third-bg-color);
+}
+
 /* приховані заголовки */
 
 .hidden-title {
     display: none;
 }
 
-/* сенції */
+/* секції */
 
 .section-title,
 .li-title {
@@ -96,6 +101,32 @@ ul {
     background-color: var(--accent-color);
     cursor: pointer;
 }
+
+/* футер */
+
+.address {
+    background-color: var(--third-bg-color);
+}
+
+.address .link {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.address .link-map {
+    color: #FFFFFF;
+}
+
+.address .link-map:hover,
+.address .link-map:focus {
+    color: var(--accent-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
+
 
 
 
