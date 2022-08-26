@@ -1,0 +1,97 @@
+:root {
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --primary-bg-color: #F5F5F5;
+    --secondary-bg-color: #F5F4FA;
+    --accent-color: #2196F3;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.page{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* h1 color #FFFFFF */
+/* h2+h3+buttons color #212121 */
+/* p color #757575 */
+/* hero background color #2F303A */
+/* blue #2196F3 */
+/* white color #2196F3 */
+
+/* стилізація лого */
+.logo-web {
+    color: #2196F3;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+/* стилізація навігації */
+
+.site-nav .link {
+    color: var(--tittle-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .contact {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .contact:hover,
+.auth-nav .contact:focus {
+    color: var(--accent-color);
+}
+
+/* приховані заголовки */
+
+.hidden-title {
+    display: none;
+}
+
+/* сенції */
+
+.section-title,
+.li-title {
+    color: var(--tittle-text-color);
+}
+
+/* Кнопка */
+
+.button {
+    color: var(--tittle-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+
+
