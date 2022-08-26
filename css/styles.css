@@ -9,7 +9,7 @@
 
 /* стилізація лінків */
 
-/*a:link {
+/* a:link {
     text-decoration: none;
 }
 a:visited {
@@ -22,8 +22,8 @@ a:hover {
 
 a:active {
     text-decoration: none;
-}
-*/
+} */
+
 
 /* загальне */
 
@@ -106,14 +106,16 @@ ul {
 
 .hero {
     background-color: var(--third-bg-color);
-    
+}
+
+.hero-title {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* приховані заголовки */
@@ -140,6 +142,7 @@ ul {
     font-size: 36px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .li-title-team {
@@ -160,11 +163,11 @@ ul {
 
 
 
-/* Кнопка */
+/* Кнопки */
 
-.button {
-    color: var(--tittle-text-color);
-    background-color: var(--secondary-bg-color);
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -172,10 +175,8 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.button:hover,
-.button:focus {
-    color: #ffffff;
-    background-color: var(--accent-color);
+.hero-button:hover,
+.hero-button:focus {
     cursor: pointer;
 }
 
@@ -185,21 +186,23 @@ ul {
     background-color: var(--third-bg-color);
 }
 
-.address .link {
-    color: rgba(255, 255, 255, 0.6)
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
-.address .link-map {
+.link-map {
     color: #FFFFFF;
+    font-style: normal;
 }
 
-.address .link-map:hover,
-.address .link-map:focus {
+.link-map:hover,
+.link-map:focus {
     color: var(--accent-color);
 }
 
-.address .link:hover,
-.address .link:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--accent-color);
 }
 
