@@ -57,6 +57,10 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .auth-nav .contact {
     color: var(--primary-text-color);
 }
