@@ -43,6 +43,12 @@ ul {
 }
 
 /* стилізація лого */
+
+.page-header {
+    background-color: #FFFFFF;
+}
+
+/* стилізація лого */
 .logo-web {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
@@ -143,6 +149,10 @@ ul {
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: center;
+}
+
+.team {
+    background-color: var(--secondary-bg-color);
 }
 
 .li-title-team {
