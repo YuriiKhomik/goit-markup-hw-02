@@ -211,8 +211,8 @@ ul {
 .gallery-button:hover,
 .gallery-button:focus {
     background-color: var(--accent-color);
-
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* футер */
