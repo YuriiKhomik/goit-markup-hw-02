@@ -9,7 +9,7 @@
 
 /* стилізація лінків */
 
-/* a:link {
+a:link {
     text-decoration: none;
 }
 a:visited {
@@ -22,7 +22,7 @@ a:hover {
 
 a:active {
     text-decoration: none;
-} */
+}
 
 
 /* загальне */
@@ -159,14 +159,32 @@ ul {
     letter-spacing: 0.03em;
 }
 
+.li-title-portfolio {
+    color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.p-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+
+
 
 
 
 /* Кнопки */
 
 .hero-button {
-    color: #FFFFFF;
     background-color: var(--accent-color);
+    
+    color: #FFFFFF;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -177,6 +195,24 @@ ul {
 .hero-button:hover,
 .hero-button:focus {
     cursor: pointer;
+}
+
+.gallery-button {
+    background-color: var(--secondary-bg-color);
+
+    color: var(--tittle-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.gallery-button:hover,
+.gallery-button:focus {
+    background-color: var(--accent-color);
+
+    color: #FFFFFF;
 }
 
 /* футер */
